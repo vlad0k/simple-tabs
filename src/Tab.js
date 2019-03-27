@@ -11,14 +11,13 @@ class Tab extends Component {
     tabs.forEach(elem => {
       elem.className = 'Tab';
     });
-    event.target.className = 'Tab Tab_active';
-    console.log(this.props);
+    event.target.className += ' Tab_active';
     this.props.setState({'activeTab': this.props.tabName});
   }
   render() {
 
     return (
-      <div className={"Tab " + this.props.className} onClick={this.handleClick} >
+      <div className={"Tab " + this.props.className} onClick={this.handleClick}>
         {this.props.tabName}
       </div>
     );

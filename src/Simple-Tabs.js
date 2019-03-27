@@ -7,9 +7,9 @@ class SimpleTabs extends Component {
   constructor(props){
     super(props);
     this.content = {
-      'Tab1': 'tab1',
-      'Tab2': 'tab2',
-      'Tab3': 'tab3'
+      'Tab1': 'Text 1',
+      'Tab2': 'Text 2',
+      'Tab3': 'Text 3'
     }
     this.state = {
       activeTab: 'Tab1',
