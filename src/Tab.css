@@ -1,0 +1,11 @@
+.Tab {
+  text-align: center;
+  font-size: 24px;
+  padding: 6px 36px;
+  color: rgba(255,255,255, 0.7)
+}
+
+.Tab_active{
+  border-bottom: 3px solid red;
+  color: white;
+}

@@ -1,0 +1,9 @@
+.Header{
+  padding: 0 36px;
+  background-color: #4496EC;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.Header:after
